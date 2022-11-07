@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Sign-Up Form</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="left"></div>
+    <div class="right">
+      <div class="hero">
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <em>now</em> to get started.
+      </div>
+      <div class="hero">You <em>know</em> you want to.</div>
+      <fieldset>
+        <div class="header-form">Let's do this!</div>
+
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" name="first_name" />
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="phone_number">Phone Number</label>
+        <input type="number" id="phone_number" name="phone_number" />
+
+        <label for="passsword">Password</label>
+        <input type="password" id="password" name="password" />
+        <label for="confirm_passsword">Confirm Password</label>
+        <input
+          type="password"
+          id="confirm_passsword"
+          name="confirm_passsword"
+        />
+      </fieldset>
+      <button id="submit-button" type="submit">Create Account</button>
+    </div>
+  </body>
 </html>

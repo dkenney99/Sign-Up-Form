@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  -webkit-text-stroke: 0.025em rgba(51, 51, 51, 0.5);
+  line-height: 1;
+  display: flex;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.left {
+  height: 100vh;
+  width: 37vw;
+  background-image: url(./images/raphael-renter-hlac8cLjoPo-unsplash.jpg);
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.right {
+  margin-top: 10%;
+  display: flex;
+  width: 80vw;
+  background-color: rgba(250, 250, 250, 0.938);
+  flex-direction: column;
+}
+
+.hero {
+  margin-left: 5%;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  font-weight: 550;
+  font-size: 30px;
+  width: 740px;
+}
+
+fieldset {
+  background-color: white;
+  height: 30%;
+  padding: 5%;
+  border: 1px rgb(235, 231, 231) solid;
+  font-family: sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-form {
+  font-family: sans-serif;
+  font-weight: 550;
+  font-size: 30px;
+  margin-bottom: 3%;
+}
+
+#submit-button {
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 20px;
+  color: white;
+  height: 75px;
+  width: 250px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(168, 44, 168, 0.993);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
