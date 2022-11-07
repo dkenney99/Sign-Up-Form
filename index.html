@@ -16,31 +16,61 @@
         <em>now</em> to get started.
       </div>
       <div class="hero">You <em>know</em> you want to.</div>
-      <fieldset>
-        <div class="header-form">Let's do this!</div>
-
-        <label for="first_name">First Name</label>
-        <input type="text" id="first_name" name="first_name" />
-
-        <label for="last_name">Last Name</label>
-        <input type="text" id="last_name" name="last_name" />
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" />
-
-        <label for="phone_number">Phone Number</label>
-        <input type="number" id="phone_number" name="phone_number" />
-
-        <label for="passsword">Password</label>
-        <input type="password" id="password" name="password" />
-        <label for="confirm_passsword">Confirm Password</label>
-        <input
-          type="password"
-          id="confirm_passsword"
-          name="confirm_passsword"
-        />
-      </fieldset>
+      <form>
+        <div class="inputs-section">
+          <h3>Let's do this!</h3>
+          <div class="inputs">
+            <div>
+              <div>
+                <label for="first-name">FIRST NAME</label
+                ><input type="text" id="first-name" name="first-name" />
+              </div>
+              <div>
+                <label for="last-name">LAST NAME</label
+                ><input
+                  type="text"
+                  class="focus"
+                  id="last-name"
+                  name="last-name"
+                />
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="email">EMAIL</label
+                ><input type="email" id="email" name="email" />
+              </div>
+              <div>
+                <label for="phone-number">PHONE NUMBER</label
+                ><input type="tel" id="phone-number" name="phone-number" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="password">PASSWORD</label
+                ><input
+                  type="password"
+                  class="error"
+                  id="password"
+                  name="password"
+                />
+                <p class="error-message">*Passwords do not match</p>
+              </div>
+              <div>
+                <label for="confirm-password">CONFIRM PASSWORD</label
+                ><input
+                  type="password"
+                  class="error"
+                  id="confirm-password"
+                  name="confirm-password"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
       <button id="submit-button" type="submit">Create Account</button>
+      <div class="login">Already have an account? <em>Login here</em></div>
     </div>
   </body>
 </html>
